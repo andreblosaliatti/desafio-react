@@ -5,10 +5,14 @@
 .nav-container {
     max-width: 960px;
     height: 70px;
-    border: 1px solid black;
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.menu-container {
+    display: flex;
     gap: 10px;
 }
 
@@ -19,4 +23,8 @@
 
 .nav-link-active {
     font-weight: 700;
+}
+
+.icon {
+    color: white;
 }
