@@ -1,0 +1,22 @@
+.nav {
+    background-color: blue
+}
+
+.nav-container {
+    max-width: 960px;
+    height: 70px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link-active {
+    font-weight: 700;
+}
