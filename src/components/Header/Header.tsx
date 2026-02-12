@@ -12,10 +12,10 @@ export default function Header() {
                     <NavLink to='/' end className={({isActive}) => isActive ? "nav-link nav-link-active" : "nav-link"}>
                     Início
                     </NavLink>
-                    <NavLink to='/products' end className={({isActive}) => isActive ? "nav-link nav-link-active" : "nav-link"}>
+                    <NavLink to='/products' className={({isActive}) => isActive ? "nav-link nav-link-active" : "nav-link"}>
                      Produtos
                     </NavLink>
-                    <NavLink to='/about' end className={({isActive}) => isActive ? "nav-link nav-link-active" : "nav-link"}>
+                    <NavLink to='/about' className={({isActive}) => isActive ? "nav-link nav-link-active" : "nav-link"}>
                     Sobre nós
                     </NavLink>
                 </div>
